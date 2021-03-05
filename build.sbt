@@ -25,7 +25,7 @@ lazy val testScalastyle = taskKey[Unit]("testScalastyle")
 
 val sparkVersion = "2.4.3"
 val hadoopVersion = "2.7.2"
-val hiveVersion = "2.3.7"
+val hiveVersion = "3.1.0"
 val deltaVersion = "0.5.0"
 
 lazy val commonSettings = Seq(
